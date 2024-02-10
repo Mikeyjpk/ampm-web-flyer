@@ -21,8 +21,7 @@ export default function RootLayout({
       <body className={cn(inter.className, 'no-scrollbar')}>
         <ThemeProvider
           attribute="class"
-          defaultTheme="system"
-          enableSystem
+          defaultTheme="dark"
           disableTransitionOnChange
         >
           {children}  
