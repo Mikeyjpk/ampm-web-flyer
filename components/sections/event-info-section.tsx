@@ -24,7 +24,7 @@ const EventInfo = () => {
             {/* SUBTITLE */}
             <div>
                 Emo, Pop-Punk, Rock & Alternative DJs all night
-                Burdekin Hotel // 2 Oxford St, Darlinghurst
+                Burdekin Hotel // 2 Oxford St Darlinghurst
                 Saturday March 16th // Tickets on sale now
             </div>
             {lineBreak()}
@@ -38,7 +38,7 @@ const EventInfo = () => {
                 </div>
                 {/* info block two */}
                 <div>
-                    We're rounding up our best DJ's and throwing some 
+                    We&apos;re rounding up our best DJ&apos;s and throwing some 
                     extra new wave emo on the playlist to mark the occasion.
                 </div>
             </div>
@@ -51,8 +51,8 @@ const EventInfo = () => {
                 </div>
             </div>
             <div>
-                Whether you're attending the fest or just want to party, 
-                we'll be kicking off from 9:00PM 'til late
+                Whether you&apos;re attending the fest or just want to party, 
+                we&apos;ll be kicking off from 9:00PM &apos;til late
             </div>
             {/* Image */}
             <Image src={instagramTile} alt="instagram tour flyer" className="pt-4"/>
