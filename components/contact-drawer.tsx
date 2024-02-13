@@ -1,7 +1,7 @@
 "use client"
 
 import * as React from "react"
-import { FaSquareXTwitter, FaSquareInstagram  } from "react-icons/fa6";
+import { FaSquareXTwitter, FaSquareInstagram } from "react-icons/fa6";
 import { FaFacebookSquare, FaTiktok } from "react-icons/fa";
 
 import { Button } from "@/components/ui/button"
@@ -19,7 +19,7 @@ import {
 export function ContactDrawer() {
   const [goal, setGoal] = React.useState(350)
 
-  function onClick(adjustment: number) { 
+  function onClick(adjustment: number) {
     setGoal(Math.max(200, Math.min(400, goal + adjustment)))
   }
 
@@ -32,14 +32,14 @@ export function ContactDrawer() {
         <div className="mx-auto w-full max-w-sm pt-2">
           <DrawerHeader>
             <DrawerTitle>
-                Contact Us
+              Contact Us
             </DrawerTitle>
             <DrawerDescription>
-                For general enquiries please contact us at
+              For general enquiries please contact us at
             </DrawerDescription>
           </DrawerHeader>
           <div className="flex items-center justify-center space-x-5 pt-2 pb-6 text-lg">
-            this.is.not@realemail.com
+            info@theneighbourhood.me
           </div>
           <DrawerFooter>
             <DrawerClose asChild>
