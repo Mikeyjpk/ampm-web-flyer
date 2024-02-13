@@ -12,6 +12,9 @@ const Container: React.FC<ContainerProps> = ({
             max-w-2xl
             min-w-sm
             mx-auto
+            flex
+            flex-col
+            gap-y-4
         ">
             {children}
         </div>

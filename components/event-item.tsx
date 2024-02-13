@@ -18,10 +18,10 @@ const EventItem: React.FC<TicketLinkProps> = ({
     ticketLink
 }) => {
     return ( 
-    <div className="flex flex-row justify-between items-center py-3 px-2.5 hover:bg-neutral-900/50">
+    <div className="bg-neutral-800/10 hover:bg-neutral-600/10 flex flex-row justify-between items-center p-2 rounded-sm">
         {/* info */}
-        <div className="flex flex-col">
-            <div className="text-sm">
+        <div className="flex flex-col select-none">
+            <div className="text-sm font-light">
                 {date}
             </div>
             <div className="flex flex-row gap-x-0.5 items-center">
@@ -46,7 +46,8 @@ const EventItem: React.FC<TicketLinkProps> = ({
                     RSVP
                 </Button>
             </div>
-                {/* {ticketLink} */}
+
+            {/* {ticketLink} */}
             <div className="hover:cursor-pointer">
                 {/* todo: replace with ticket link */}
                 <Button size={"sm"} onClick={() => window.open(ticketLink, '_ blank')}>

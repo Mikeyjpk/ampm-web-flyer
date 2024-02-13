@@ -1,10 +1,8 @@
 import type { Metadata } from "next";
-import { ThemeProvider } from "@/components/theme-provider"
-import { Inter } from "next/font/google";
+import { ThemeProvider } from "@/components/theme-provider" 
 import "./globals.css";
 import { cn } from "@/lib/utils";
-
-const inter = Inter({ subsets: ["latin"] });
+import { firaSans } from "./fonts/font";
 
 export const metadata: Metadata = {
   title: "ampm web flyer",
@@ -18,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={cn(inter.className, 'no-scrollbar')}>
+      <body className={cn(firaSans.className, 'no-scrollbar')}>
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"

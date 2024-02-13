@@ -1,5 +1,6 @@
 import Image from "next/image";
 import instagramTile from "@/public/images/instagram-tile.jpg"
+import TitleSection from "./title-section";
 
 const EventInfo = () => {
 
@@ -10,16 +11,16 @@ const EventInfo = () => {
     }
 
     return ( 
-        <div className="flex flex-col items-start gap-y-3 py-10 px-3 select-none">
+        <div className="flex flex-col items-start gap-y-3 px-6 pt-4 select-none">
             {/* HEADING */}
-            <div className="flex flex-col">
+            {/* <div className="flex flex-col">
                 <div className="font-bold text-xl">
                     New Bloom Fest Official Afterparty
                 </div>
                 <div>
                     Presented by AM//PM
                 </div>
-            </div>
+            </div> */}
             {lineBreak()}
             {/* SUBTITLE */}
             <div>
@@ -55,7 +56,7 @@ const EventInfo = () => {
                 we&apos;ll be kicking off from 9:00PM &apos;til late
             </div>
             {/* Image */}
-            <Image src={instagramTile} alt="instagram tour flyer" className="pt-4"/>
+            <Image src={instagramTile} alt="instagram tour flyer" className="p-6 md:p-4"/>
  
         </div>
      );
