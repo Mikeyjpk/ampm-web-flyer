@@ -1,11 +1,9 @@
 import EventItem from "../event-item";
 import { eventInfo } from "@/utilities/event-info-look-up"
-import { anton, bebasNeue } from "@/app/fonts/font";
-import { cn } from "@/lib/utils";
 
 const TicketSection = () => {
     return (
-        <div className="flex flex-col gap-y-3 mx-4 py-2.5">
+        <div className="flex flex-col gap-y-3 mx-3 py-2.5">
             <div className="flex flex-col items-center pb-1">
                 <div className="font-bold text-2xl">
                     AM//PM

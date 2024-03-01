@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { ThemeProvider } from "@/components/theme-provider" 
+import { ThemeProvider } from "@/components/theme-provider"
 import "./globals.css";
 import { cn } from "@/lib/utils";
 import { firaSans } from "./fonts/font";
@@ -22,7 +22,9 @@ export default function RootLayout({
           defaultTheme="dark"
           disableTransitionOnChange
         >
-          {children}  
+          <div className="relative">
+            {children}
+          </div>
         </ThemeProvider>
       </body>
     </html>

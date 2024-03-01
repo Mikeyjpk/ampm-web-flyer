@@ -1,16 +1,16 @@
 import Image from "next/image";
+import heroImage from "@/public/images/flyer-three.jpg"
 
-import heroImage from "@/public/images/instagram-tile.jpg"
-
+//todo: change this image, needs the borders reduced
 const HeroSection = () => {
-    return ( 
-    <div className="">
-        <Image 
-            src={heroImage} 
-            alt="instagram tour flyer"
-            className="relative"
-        />
-    </div> );
+    return (
+        <div>
+            <Image
+                src={heroImage}
+                alt="instagram tour flyer"
+            />
+        </div>
+    );
 }
- 
+
 export default HeroSection;

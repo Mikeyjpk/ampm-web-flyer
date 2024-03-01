@@ -15,48 +15,42 @@ const EventItem: React.FC<TicketLinkProps> = ({
     city,
     location,
     eventLink,
-    ticketLink
+    ticketLink,
 }) => {
-    return ( 
-    <div className="bg-neutral-800/10 hover:bg-neutral-600/10 flex flex-row justify-between items-center p-2 rounded-sm">
-        {/* info */}
-        <div className="flex flex-col select-none">
-            <div className="text-sm font-light">
-                {date}
-            </div>
-            <div className="flex flex-row gap-x-0.5 items-center">
-                <div className="font-bold text-md">
-                    {city}
+    return (
+        <div className="bg-neutral-800/10 hover:bg-neutral-600/10 flex flex-row justify-between items-center p-2 rounded-sm">
+            {/* info */}
+            <div className="flex flex-col select-none">
+                <div className="text-sm font-light">
+                    {date}
                 </div>
-                <p>/</p>
-                <div className="font-light text-sm">
-                    {location}
-                </div>
-                
-            </div>
-        </div>
+                <div className="flex flex-row gap-x-0.5 items-center">
+                    <div className="font-bold text-md">
+                        {city}
+                    </div>
+                    <p>/</p>
+                    <div className="font-light text-sm">
+                        {location}
+                    </div>
 
-        {/* links */}
-        <div className="flex flex-row gap-2 items-center">
-            {/* {eventLink} */}
-            <div className="hover:cursor-pointer">
-                {/* todo: replace with event link */}
-                <Button variant={"outline"} size={"sm"} onClick={() => window.open(eventLink, '_ blank')}>
-                {/* <Button variant={"outline"} size={"sm"} onClick={() => window.open('http://www.facebook.com', '_ blank')}> */}
-                    RSVP
-                </Button>
+                </div>
             </div>
 
-            {/* {ticketLink} */}
-            <div className="hover:cursor-pointer">
-                {/* todo: replace with ticket link */}
+            {/* links */}
+            <div className="flex flex-row gap-2 items-center">
+                {/* {eventLink} */}
+                <div className="hover:cursor-pointer">
+                    <Button variant={"outline"} size={"sm"} onClick={() => window.open(eventLink, '_ blank')}>
+                        RSVP
+                    </Button>
+                </div>
+
+                {/* {ticketLink} */}
                 <Button size={"sm"} onClick={() => window.open(ticketLink, '_ blank')}>
-                {/* <Button size={"sm"} onClick={() => window.open('https://www.eventbrite.com.au/', '_ blank')}> */}
                     BUY
-                </Button>
+                </Button>  
             </div>
-        </div>
-    </div> );
+        </div>);
 }
- 
+
 export default EventItem;

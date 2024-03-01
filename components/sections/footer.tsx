@@ -1,6 +1,5 @@
 import { ContactDrawer } from "../contact-drawer";
 import { SocialDrawer } from "../social-drawer";
-import { Button } from "../ui/button";
 
 const Footer = () => {
     return ( 

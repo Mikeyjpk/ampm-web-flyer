@@ -1,6 +1,5 @@
 import Image from "next/image";
-import instagramTile from "@/public/images/instagram-tile.jpg"
-import TitleSection from "./title-section";
+import instagramTile from "@/public/images/flyer-one.jpg"
 
 const EventInfo = () => {
 
@@ -10,56 +9,52 @@ const EventInfo = () => {
         )
     }
 
-    return ( 
+    return (
         <div className="flex flex-col items-start gap-y-3 px-6 pt-4 select-none">
-            {/* HEADING */}
-            {/* <div className="flex flex-col">
-                <div className="font-bold text-xl">
-                    New Bloom Fest Official Afterparty
-                </div>
-                <div>
-                    Presented by AM//PM
-                </div>
-            </div> */}
-            {lineBreak()}
-            {/* SUBTITLE */}
+            {/* Title */}
             <div>
-                Emo, Pop-Punk, Rock & Alternative DJs all night
-                Burdekin Hotel // 2 Oxford St Darlinghurst
-                Saturday March 16th // Tickets on sale now
+                AM//PM is taking Emo Night on tour in April-May for a huge 8 date run across 
+                the eastcoast with Diamond Construct. We're packing the balloons & the fireball 
+                and taking the sad party onthe road.
             </div>
+
+            <div>
+                With a stacked band lineup + DJ's playing all the best Emo & Pop-Punk Anthems, 
+                we'll have youscreaming for the business of misery & making a bunch of MMRS with us 'til late!
+            </div>
+
             {lineBreak()}
-            <div className="flex flex-col gap-y-6">
-                {/* info block one */}
-                <div>
-                    Want to kick on after New Bloom Fest? AM//PM is 
-                    taking over The Burdekin and bringing the fest 
-                    back fromThe Roundhouse for some well deserved 
-                    kickons from the first ever New Bloom Fest.
-                </div>
-                {/* info block two */}
-                <div>
-                    We&apos;re rounding up our best DJ&apos;s and throwing some 
-                    extra new wave emo on the playlist to mark the occasion.
-                </div>
-            </div>
-            <div className="flex flex-col gap-y-6 py-1">
-                <div>
-                    🌼Level 1: Emo, Pop-Punk & Alternative Anthems  
-                </div>
-                <div>
-                    🌼Level 2: New Wave Emo, Requests and deeper cuts
-                </div>
+            <div>
+                Bands: Diamond Construct + supports TBA
             </div>
             <div>
-                Whether you&apos;re attending the fest or just want to party, 
-                we&apos;ll be kicking off from 9:00PM &apos;til late
+                DJ's: AM//PM DJ's + friends 
             </div>
+            {lineBreak()}
+
+            <div>
+                EMO NIGHT SOUNDS LIKE:
+            </div>
+            <div>
+                My Chemical Romance ⋆ Panic! At The Disco ⋆ Bring Me The Horizon ⋆ Fall Out Boy ⋆ 
+                The Used ⋆ Blink 182 ⋆ A Day To Remember ⋆ Yellowcard ⋆ All Time Low ⋆ 3OH!3 ⋆ 
+                Metro Station ⋆ Paramore ⋆ Taking Back Sunday ⋆ AFI ⋆ Escape The Fate ⋆ Underoath ⋆ 
+                Falling In Reverse ⋆ Hawthorne Heights ⋆ Neck Deep ⋆ Cobra Starship ⋆ Sum 41 ⋆ 
+                The All-American Rejects ⋆ Good Charlotte ⋆ Simple Plan ⋆ 30 Seconds To Mars ⋆ 
+                Jimmy Eat World ⋆ Pierce The Veil ⋆ Sleeping With Sirens 
+            </div>
+            <div>
+                + every emo, pop-punk & rock & metal banger ever // hit us with your requests
+            </div>
+            <div className="text-xs font-bold">
+                UPCOMING PARTIES / PHOTOS / SOCIALS / SPOTIFY PLAYLIST: <a href="https://hoo.be/ampm" className="hover:text-red-900 text-sm">https://hoo.be/ampm</a>
+            </div>
+
             {/* Image */}
-            <Image src={instagramTile} alt="instagram tour flyer" className="p-6 md:p-4"/>
- 
+            <Image src={instagramTile} alt="instagram tour flyer" className="p-4" />
+
         </div>
-     );
+    );
 }
- 
+
 export default EventInfo;

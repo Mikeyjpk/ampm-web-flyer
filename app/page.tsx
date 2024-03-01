@@ -9,13 +9,13 @@ import VideoSection from "@/components/sections/video-section";
 export default function Home() {
   return (
     <main>
-      <Container>
-        <HeroSection />
-        <TicketSection />
-        <VideoSection />
-        <TitleSection />
-        <EventInfo />
-      </Container>
+        <Container>
+          <HeroSection />
+          <TicketSection />
+          <VideoSection />
+          <TitleSection />
+          <EventInfo />
+        </Container>
       <Footer />
     </main>
   );
