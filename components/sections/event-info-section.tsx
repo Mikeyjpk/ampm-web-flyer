@@ -14,13 +14,13 @@ const EventInfo = () => {
             {/* Title */}
             <div>
                 AM//PM is taking Emo Night on tour in April-May for a huge 8 date run across 
-                the eastcoast with Diamond Construct. We're packing the balloons & the fireball 
+                the eastcoast with Diamond Construct. We&apos;re packing the balloons & the fireball 
                 and taking the sad party onthe road.
             </div>
 
             <div>
-                With a stacked band lineup + DJ's playing all the best Emo & Pop-Punk Anthems, 
-                we'll have youscreaming for the business of misery & making a bunch of MMRS with us 'til late!
+                With a stacked band lineup + DJ&apos;s playing all the best Emo & Pop-Punk Anthems, 
+                we&apos;ll have youscreaming for the business of misery & making a bunch of MMRS with us &apos;til late!
             </div>
 
             {lineBreak()}
@@ -28,7 +28,7 @@ const EventInfo = () => {
                 Bands: Diamond Construct + supports TBA
             </div>
             <div>
-                DJ's: AM//PM DJ's + friends 
+                DJ&apos;s: AM//PM DJ&apos;s + friends 
             </div>
             {lineBreak()}
 
