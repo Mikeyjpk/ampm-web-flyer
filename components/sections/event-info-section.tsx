@@ -15,7 +15,7 @@ const EventInfo = () => {
             <div>
                 AM//PM is taking Emo Night on tour in April-May for a huge 8 date run across 
                 the eastcoast with Diamond Construct. We&apos;re packing the balloons & the fireball 
-                and taking the sad party onthe road.
+                and taking the sad party on the road.
             </div>
 
             <div>
