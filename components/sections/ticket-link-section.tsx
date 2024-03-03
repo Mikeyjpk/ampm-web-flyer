@@ -6,10 +6,10 @@ const TicketSection = () => {
         <div className="flex flex-col gap-y-3 mx-3 py-2.5">
             <div className="flex flex-col items-center pb-1">
                 <div className="font-bold text-2xl">
-                    AM//PM
+                    AM//PM EMO NIGHT
                 </div>
                 <div className="font-bold text-xl">
-                    EMO NIGHT REGIONAL TOUR 2024
+                    REGIONAL TOUR 2024
                 </div>
                 <div className="text-sm">
                     W/ Diamond Construct
