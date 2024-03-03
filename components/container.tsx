@@ -14,7 +14,7 @@ const Container: React.FC<ContainerProps> = ({
             mx-auto
             flex
             flex-col
-            gap-y-4
+
         ">
             {children}
         </div>

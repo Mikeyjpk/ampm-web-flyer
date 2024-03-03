@@ -9,7 +9,7 @@ const VideoSection = async () => {
                 controls
                 poster="./images/Thumbnail_AMPM.jpg"
             >      
-                <source src="./video/ampm-video_1440p.mp4" type="video/mp4" />    
+                <source src="./video/ampm-video-original.mp4" type="video/mp4" />    
             </video>  
         </div>
     );
