@@ -7,7 +7,7 @@ import Footer from "@/components/sections/footer";
 import HeroSection from "@/components/sections/hero-section";
 import TitleSection from "@/components/sections/title-section";
 import VideoSection from "@/components/sections/video-section";
-import Loading from "./loading";
+import Loading from "@/components/loading";
 
 export default function Home() {
   return (

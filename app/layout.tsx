@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={cn(firaSans.className, 'no-scrollbar')}>
+      <body className={cn(firaSans.className, 'no-scrollbar bg-black')}>
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"
