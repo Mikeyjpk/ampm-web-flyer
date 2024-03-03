@@ -6,7 +6,6 @@ const VideoSection = async () => {
                 autoPlay 
                 muted 
                 loop 
-                controls
                 poster="./images/Thumbnail_AMPM.jpg"
             >      
                 <source src="./video/ampm-video-original.mp4" type="video/mp4" />    
