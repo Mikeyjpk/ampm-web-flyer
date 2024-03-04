@@ -5,7 +5,7 @@ import { cn } from "@/lib/utils";
 import { firaSans } from "./fonts/font";
 
 export const metadata: Metadata = {
-  title: "ampm",
+  title: "AM//PM",
   description: "On tour with Diamond Contruct",
 };
 
