@@ -46,9 +46,6 @@ const EventInfo = () => {
             <div>
                 + every emo, pop-punk & rock & metal banger ever // hit us with your requests
             </div>
-            <div className="text-xs">
-                UPCOMING PARTIES / PHOTOS / SOCIALS / SPOTIFY PLAYLIST: <a href="https://hoo.be/ampm" className="hover:text-red-900 text-sm font-bold">https://hoo.be/ampm</a>
-            </div>
 
             {/* Image */}
             <Image src={instagramTile} alt="instagram tour flyer" className="p-4" />
